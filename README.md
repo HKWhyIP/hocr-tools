@@ -16,3 +16,7 @@ Included command line programs:
   * hocr-split -- split an hOCR file into individual pages
   * hocr-merge-dc -- merge Dublin Core meta data into the hOCR HTML header
 
+History:
+Jan 4, 2016
+-Changed font name from "invisible" to Courier.  This is because PDF.js cannot select text if the font is invisible.
+-Added a space " " at text.textLine(rawtext+" ") to allow selecting with a space.
